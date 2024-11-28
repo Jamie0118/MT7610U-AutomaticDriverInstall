@@ -22,37 +22,29 @@ The following USB Wi-Fi adapters are supported by this driver:
 - **ZyXEL NWD6505**: `{USB_DEVICE(0x0586,0x3425)}`
 - **AboCom AU7212**: `{USB_DEVICE(0x07B8,0x7610)}`
 - **IO DATA WN-AC433UK**: `{USB_DEVICE(0x04BB,0x0951)}`
-- **AVM FRITZ!WLAN USB Stick AC 430**: `{USB_DEVICE(0x057C,0x8502)}` (not working)
 - **Comcast Xfinity KXW02AAA**: `{USB_DEVICE(0x293C,0x5702)}`
 - **Planex GW-450D/GW-450D-KATANA**: `{USB_DEVICE(0x2019,0xAB31)}`
 - **TRENDnet TEW-806UBH AC600**: `{USB_DEVICE(0x20F4,0x806B)}`
 
-## Features
-
-- Ensures the script is run with root privileges.
-- Checks for distribution compatibility (Debian-based or Red Hat-based systems).
-- Installs required packages like `git` and build tools.
-- Updates the system for optimal performance.
-- Clones and compiles the MT7610U driver source code.
-
 ## Usage
-
-1. Make the script executable:
+  
+1. Download the script:
    ```bash
    git clone https://github.com/Jamie0118/Ralink-RT5370N-AutomaticDriverInstall
    cd Ralink-RT5370N-AutomaticDriverInstall
    ```
+2. Make the script executable:
 
    ```bash
-   chmod +x install_mt7610u.sh
+   chmod +x Ralink-RT5370N-AutomaticDriverInstall.sh
    ```
 
-2. Run the script with root privileges:
+3. Run the script with root privileges:
 
    ```bash
-   sudo ./install_mt7610u.sh
+   sudo ./Ralink-RT5370N-AutomaticDriverInstall.sh
    ```
 
-3. Follow the prompts to complete the installation.
+4. Follow the prompts to complete the installation.
 
-4. Reboot the system to apply changes.
+5. Reboot the system to apply changes.
