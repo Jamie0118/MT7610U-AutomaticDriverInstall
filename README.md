@@ -52,12 +52,3 @@ The following USB Wi-Fi adapters are supported by this driver:
 3. Follow the prompts to complete the installation.
 
 4. Reboot the system to apply changes.
-
-## Notes
-
-- Ensure that your system has an active internet connection for package installation and driver compilation.
-- If your adapter is not listed above, it may not be supported by this driver.
-
-## License
-
-This script and associated drivers are distributed under their respective licenses.
