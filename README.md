@@ -30,19 +30,19 @@ The following USB Wi-Fi adapters are supported by this driver:
   
 1. Download the script:
    ```bash
-   git clone https://github.com/Jamie0118/Ralink-RT5370N-AutomaticDriverInstall
-   cd Ralink-RT5370N-AutomaticDriverInstall
+   git clone https://github.com/Jamie0118/MT7610U-AutomaticDriverInstall
+   cd MT7610U-AutomaticDriverInstall
    ```
 2. Make the script executable:
 
    ```bash
-   chmod +x Ralink-RT5370N-AutomaticDriverInstall.sh
+   chmod +x MT7610U-AutomaticDriverInstall.sh
    ```
 
 3. Run the script with root privileges:
 
    ```bash
-   sudo ./Ralink-RT5370N-AutomaticDriverInstall.sh
+   sudo ./MT7610U-AutomaticDriverInstall.sh
    ```
 
 4. Follow the prompts to complete the installation.
